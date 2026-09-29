@@ -1,0 +1,14 @@
+-- Select the database
+USE DataWarehouseAnalytics;
+
+-- Show all tables
+SHOW TABLES;
+
+-- Show the structure of customers table
+DESCRIBE gold_dim_customers;
+
+-- Show the structure of products table
+DESCRIBE gold_dim_products;
+
+-- Show the structure of sales table
+DESCRIBE gold_fact_sales;
